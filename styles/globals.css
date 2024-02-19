@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.locale_icon{
+    width: 30px;
+    height: 30px;
+}
+.locale_block_wrapper{
+   max-width: 180px;
+}

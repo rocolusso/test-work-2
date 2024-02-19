@@ -1,0 +1,30 @@
+{
+  "theme_color": "#F0DA7E",
+  "background_color": "#333333",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "name": "Ionic test App",
+  "short_name": "Ionic test App",
+  "description": "Ionic test App",
+  "icons": [
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "16x16",
+      "type": "image/ico",
+      "purpose": "any maskable"
+    }
+  ]
+}
