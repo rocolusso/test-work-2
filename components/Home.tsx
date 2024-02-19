@@ -10,11 +10,10 @@ import LocaleIcon from './LocaleIcon';
 setupIonicReact({});
 
 // eslint-disable-next-line react/prop-types
-function Home({ posts }) {
+function Home() {
   const router = useRouter();
   const [checked, setChecked] = React.useState(router.locale === 'uk');
   const availableLocales = router.locales?.find((loc) => loc !== router.locale);
-  console.log(posts);
   const services = [
     {
       title: checked ? 'Послуга 1' : 'Service 1',
@@ -129,10 +128,3 @@ function Home({ posts }) {
 }
 
 export default Home;
-
-export const getServerSideProps = async () => {
-  const posts = [];
-  return {
-    props: posts,
-  };
-};
